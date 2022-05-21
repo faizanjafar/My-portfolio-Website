@@ -1,0 +1,197 @@
+@media (max-width:991px) {
+    body.disabled {
+        overflow: hidden;
+    }
+    .menu-btn,
+    .cancel-btn {
+        display: block;
+        position: absolute;
+        top: 1.2rem;
+        right: 3rem;
+        font-size: 1.5rem;
+    }
+
+    .cancel-btn {
+        color: var(--white-color);
+
+    }
+
+    .nav-items {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        top: 0;
+        left: -100%;
+        margin: 0;
+        padding: 0;
+        background-color: var(--black-color);
+        height: 100vh;
+        max-width: 350px;
+        width: 100%;
+        transition: all .5s linear;
+    }
+
+    .nav.active .nav-items {
+        left: 0%;
+    }
+
+    .nav-items li {
+        padding: 20px 0px;
+    }
+
+    .nav-items li a {
+        color: var(--white-color);
+    }
+
+    .nav-items li a:hover,
+    .nav-items li a.active {
+        color: var(--primary-color) !important;
+    }
+
+    .icon.hide {
+        display: none;
+    }
+
+
+
+    .banner{
+        background-color: var(--primary-color);
+        padding: 5rem 0rem 3rem 0rem;
+    }
+    .banner-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-content h3{
+        font-size: 2.8rem;
+        font-weight: 300;
+    }
+    .banner-content h3 span{
+        font-size: 5rem;
+        font-weight: 600;
+    }
+}
+
+
+
+
+@media (max-width: 768px){
+    .nav{
+        padding: 1rem 2rem;
+    }
+    .banner-content h3{
+        font-size: 2.3rem;
+    }
+    .banner-content h3 span{
+        font-size: 4rem;
+    }
+    .banner-content p{
+        font-size: 1.1rem;
+    }
+}
+
+
+
+@media (max-width: 480px){
+    .banner-content h3{
+        font-size: 2rem;
+    }
+    .banner-content h3 span{
+        font-size: 3.2rem;
+    }
+    .banner-content p{
+        font-size: 1.1rem;
+    }
+    .contact-btn{
+        margin-left: 0rem;
+    }
+    .nav{
+        padding: 1rem 1rem;
+    }
+    .logo h1{
+        font-size: 1.6rem;
+    }
+    .logo h1 span{
+        font-size: 1.5rem;
+    }
+    .menu-btn {
+        display: block;
+        position: absolute;
+        top: 1.2rem;
+        right: 2rem;
+        font-size: 1.5rem;
+    }
+    .heading p {
+        padding-right: 0;
+        line-height: 1.6;
+        padding-bottom: .2rem;
+    }
+    .services .single-service {
+        padding: 2rem 1rem;
+    }
+    .services .single-service p{
+        font-size: .85rem;
+    }
+    .hire-content h3{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+@media (max-width: 390px){
+    .banner-content h3{
+        font-size: 1.8rem;
+    }
+    .banner-content h3 span{
+        font-size: 2.9rem;
+    }
+    .banner-content p{
+        font-size: 1rem;
+    }
+    .contact-btn{
+        margin-left: 0rem;
+        margin-top: .8rem;
+    }
+    .bt{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        padding: 1rem .5rem;
+    }
+    .logo h1{
+        font-size: 1.5rem;
+    }
+    .logo h1 span{
+        font-size: 1.4rem;
+    }
+    .menu-btn {
+        display: block;
+        position: absolute;
+        top: 1.1rem;
+        right: 1rem;
+        font-size: 1.4rem;
+    }
+    
+    
+    .heading p{
+        font-size: .85rem;
+    }
+}
+
+@media (max-width: 420px){
+    .work-items{
+        display:flex;
+        flex-wrap: wrap;
+       
+    }
+    .work-items .last-span{
+        margin-top: .6rem;
+    }
+}
